@@ -1,0 +1,79 @@
+.section-addition {
+  padding: 2.4rem 0;
+  margin-top: -35rem;
+}
+.addi-text {
+  text-align: center;
+}
+.addi-text p {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+}
+.add-img img {
+  height: 30rem;
+  width: 100%;
+}
+
+.add-text h3 {
+  margin-bottom: 2rem;
+  color: rgb(115, 6, 231);
+  padding-left: 2rem;
+}
+
+.add-text {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  margin-top: 4rem;
+  text-align: left;
+}
+.add-text a {
+  text-decoration: none;
+  color: rgb(115, 6, 231);
+}
+.price {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+.bt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3.2rem;
+}
+/**************************/
+/* Below 1200 */
+/**************************/
+@media (max-width: 75em) {
+  .section-addition {
+    margin-top: -40rem;
+  }
+}
+/**************************/
+/* Below 944 */
+/**************************/
+@media (max-width: 59em) {
+  .section-addition {
+    margin-top: -52rem;
+  }
+}
+/**************************/
+/* Below 820 */
+/**************************/
+@media (max-width: 51.25em) {
+  .section-addition {
+    margin-top: -65rem;
+  }
+}
+/* *********************************** */
+/* BELOW 600px 
+/* *********************************** */
+@media (max-width: 38.75em) {
+  .section-addition .grid {
+    display: block;
+    text-align: center;
+  }
+  .add-img img {
+    height: 30rem;
+    width: 75%;
+  }
+}

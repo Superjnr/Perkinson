@@ -1,0 +1,220 @@
+/**************************/
+/* NAVIGATION */
+/**************************/
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 4.8rem;
+  /* background-color: rgba(115, 6, 231, 0.111); */
+}
+.logo {
+  font-size: 1.4rem;
+  padding: 1.2rem;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.804);
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  gap: 4.8rem;
+}
+.nav-link:link,
+.nav-link:visited {
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.804);
+  transition: all 0.3s;
+}
+.nav-link:hover,
+.nav-link:active {
+  color: black;
+}
+.header {
+  background-image: linear-gradient(rgba(49, 68, 94, 0.8), rgba(0, 0, 0, 0)),
+    url(../../img/hero.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  margin-top: -1rem;
+}
+.hero {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+.hero-text {
+  color: rgba(255, 255, 255, 0.925);
+  font-weight: 300;
+  margin-top: 14rem;
+}
+.hero-text h1 {
+  font-size: 4.4rem;
+  padding: 2rem 0;
+}
+.hero-text p {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+}
+.btn {
+  background: rgb(115, 6, 231);
+  color: white;
+  font-size: 1.6rem;
+  padding: 1.6rem 3.2rem;
+  margin: 2rem 0rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.btn:hover,
+.btn:active {
+  background: rgb(85, 10, 164);
+}
+.search-box {
+  margin: 0 auto;
+  background-color: rgb(252, 252, 252);
+  width: 80%;
+  padding: 3.2rem;
+  margin-top: 15rem;
+  position: static;
+}
+select {
+  width: 100%;
+  padding: 1.6rem 1.4rem;
+  border-radius: 1rem;
+  margin-top: 2rem;
+}
+.search-box h3 {
+  font-size: 1.8rem;
+  margin-bottom: 2.4rem;
+  color: rgb(115, 6, 231);
+}
+/**************************/
+/* Below 1200 */
+/**************************/
+@media (max-width: 75em) {
+  .search-box {
+    margin-top: 20rem;
+  }
+}
+/**************************/
+/* Below 1032 */
+/**************************/
+@media (max-width: 64.5em) {
+  .hero {
+    max-width: 100rem;
+  }
+  .search-box {
+    margin-top: 18rem;
+  }
+}
+/**************************/
+/* Below 944 */
+/**************************/
+@media (max-width: 59em) {
+  .search-box {
+    margin-top: 22rem;
+  }
+  .hero-text {
+    margin-top: 20rem;
+  }
+  .nav-link:link,
+  .nav-link:visited {
+    font-size: 2.4rem;
+  }
+  select {
+    width: 120%;
+  }
+}
+/* *********************************** */
+/* BELOW 700px 
+/* *********************************** */
+@media (max-width: 43.75em) {
+  select {
+    width: 140%;
+  }
+}
+/* *********************************** */
+/* BELOW 640px 
+/* *********************************** */
+@media (max-width: 40em) {
+  .search-box {
+    margin-top: 20rem;
+  }
+  select {
+    width: 170%;
+  }
+}
+/* *********************************** */
+/* BELOW 600px 
+/* *********************************** */
+@media (max-width: 38.75em) {
+  select {
+    width: 50%;
+  }
+  .search-box .grid {
+    display: block;
+    text-align: center;
+  }
+  .search-box {
+    margin-top: 5rem;
+  }
+  .hero-search .btn {
+    padding: 1.6rem 10rem;
+  }
+  .hero-text {
+    margin-top: 15rem;
+  }
+}
+@media (max-width: 34.75em) {
+  .hero-search .btn {
+    padding: 1.6rem 9rem;
+  }
+  .header {
+    background-size: 105%;
+  }
+}
+@media (max-width: 32.5em) {
+  .header {
+    background-size: 115%;
+  }
+  .hero-search .btn {
+    padding: 1.6rem 8.4rem;
+  }
+}
+@media (max-width: 30em) {
+  .header {
+    background-size: 120%;
+  }
+  .hero-search .btn {
+    padding: 1.6rem 7.5rem;
+  }
+}
+@media (max-width: 26.25em) {
+  .header {
+    background-size: 140%;
+  }
+  .hero-search .btn {
+    padding: 1.6rem 6rem;
+  }
+  .hero-text {
+    margin-top: 5rem;
+  }
+}
+/* *********************************** */
+/* BELOW 390px 
+/* *********************************** */
+@media (max-width: 24.375em) {
+  .header {
+    background-size: 160%;
+  }
+  .hero-search .btn {
+    padding: 1.6rem 6.5rem;
+  }
+  select {
+    width: 60%;
+  }
+}

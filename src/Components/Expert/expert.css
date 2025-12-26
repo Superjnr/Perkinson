@@ -1,0 +1,52 @@
+.section-expert {
+  padding: 2.4rem 0;
+  text-align: center;
+}
+
+.ex-text p {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+}
+
+.face-card img {
+  height: 18rem;
+  clip-path: circle();
+  margin: 2.4rem 0;
+}
+.face-card {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+}
+/* *********************************** */
+/* BELOW 768px 
+/* *********************************** */
+@media (max-width: 48em) {
+  .face-card img {
+    height: 16rem;
+  }
+}
+/* *********************************** */
+/* BELOW 700px 
+/* *********************************** */
+@media (max-width: 43.75em) {
+  .face-card img {
+    height: 14rem;
+  }
+}
+/* *********************************** */
+/* BELOW 640px 
+/* *********************************** */
+@media (max-width: 40em) {
+  .section-expert .grid {
+    column-gap: 4rem;
+  }
+}
+/* *********************************** */
+/* BELOW 600px 
+/* *********************************** */
+@media (max-width: 38.75em) {
+  .ex-card .grid {
+    display: block;
+    text-align: center;
+  }
+}

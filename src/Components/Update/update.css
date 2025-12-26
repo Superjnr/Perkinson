@@ -1,0 +1,25 @@
+.section-update {
+  padding: 2.4rem 0;
+  background-color: rgb(115, 6, 231);
+  color: rgba(255, 255, 255, 0.925);
+  text-align: center;
+}
+
+.update h2 {
+  font-size: 3.6rem;
+  margin-bottom: 2.4rem;
+}
+.update p {
+  font-size: 1.8rem;
+}
+
+.update input {
+  font-size: 1.6rem;
+  padding: 1.6rem 8rem;
+  margin: 2rem 0rem;
+  border-radius: 1rem;
+}
+
+.update {
+  padding: 5rem 0rem;
+}
