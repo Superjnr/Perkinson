@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Perkinson/static/css/main.fa47e2a3.css",
+    "main.js": "/Perkinson/static/js/main.b5258d26.js",
+    "static/js/453.f91e71bc.chunk.js": "/Perkinson/static/js/453.f91e71bc.chunk.js",
+    "static/media/hero.jpg": "/Perkinson/static/media/hero.3320c03455725efdbf42.jpg",
+    "static/media/one.jpg": "/Perkinson/static/media/one.642836cedb38350e7362.jpg",
+    "static/media/ten.jpg": "/Perkinson/static/media/ten.51fca71967b45bd50ded.jpg",
+    "static/media/seven.jpg": "/Perkinson/static/media/seven.92f7228ec62d06dd1acd.jpg",
+    "static/media/four.jpg": "/Perkinson/static/media/four.6798afde40e060ed0937.jpg",
+    "static/media/six.jpg": "/Perkinson/static/media/six.b1c595329ef0c63d13a9.jpg",
+    "static/media/five.jpg": "/Perkinson/static/media/five.f909e039081d51f9a1d3.jpg",
+    "static/media/eight.jpg": "/Perkinson/static/media/eight.8532dfc7b7ae8853623d.jpg",
+    "static/media/three.jpg": "/Perkinson/static/media/three.1c229a5079b0c1885456.jpg",
+    "static/media/nine.jpg": "/Perkinson/static/media/nine.0004ee16d69426dc53de.jpg",
+    "static/media/two.jpg": "/Perkinson/static/media/two.2ad8b3f770229e9b6b0f.jpg",
+    "static/media/customerB.jpg": "/Perkinson/static/media/customerB.0b0c883a0cf0122b085c.jpg",
+    "static/media/customerA.jpg": "/Perkinson/static/media/customerA.5d0d9b325d384ce27e72.jpg",
+    "index.html": "/Perkinson/index.html",
+    "main.fa47e2a3.css.map": "/Perkinson/static/css/main.fa47e2a3.css.map",
+    "main.b5258d26.js.map": "/Perkinson/static/js/main.b5258d26.js.map",
+    "453.f91e71bc.chunk.js.map": "/Perkinson/static/js/453.f91e71bc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa47e2a3.css",
+    "static/js/main.b5258d26.js"
+  ]
+}
